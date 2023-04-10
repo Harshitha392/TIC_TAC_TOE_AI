@@ -1,0 +1,26 @@
+.titlebar button{
+    width: 100px;
+}
+table{
+    border-color: black;
+    border-radius: 20px;
+    left:50%;
+    margin-left:100px;
+    top:10%;
+    z-index:1;
+    margin-left: 540px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    width: 30px;
+    height: 30px;
+    font-size:20px;
+}
+.player_selected{background-color: black; font-weight: bold; color: black;}
+.computer_selected{background-color: rgb(83, 10, 10); font-weight: bold; color: rgb(83, 10, 10);}

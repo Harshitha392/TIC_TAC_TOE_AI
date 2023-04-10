@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Tic Tac Toe (9x9)</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+    <div class="titlebar">
+    <a href="index.html"><button style="float: left;">HOME</button></a>
+    <h1 class="centeredbig" style="text-align:center;">Ultimate Tic-Tac-Toe</h1>
+</div>
+<center>
+    <div class="relative">
+        <div class="absolute" id="startMenu">
+            <p class="centered" onclick="pickTurns()"><button>One Player</button></p>
+            <p class="centered" onclick="startGame(1)"><button>Two Players</button></p>
+        </div>
+        <div class="absolute" id="turnMenu" hidden="hidden">
+            <p class="centered" onclick="setGame(0)"><button>Player 1st</button></p>
+            <p class="centered" onclick="setGame(1)"><button>AI 1st</button></p>
+        </div>
+        <div class="absolute" id="winMenu" hidden="hidden">
+            <p class="centeredbig" id="result">Player 1 Wins!</p>
+            <p class="centered" onclick="menu()"><button>Play again</button></p>
+        </div>
+        <div class="absolute fade" id="loader" hidden>
+            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        </div> 
+        <canvas id="myCanvas" width="800" height="850">
+            Error: Your browser does not support the canvas element!!.
+            try updating the latest version of your current browser or use any other web browser
+        </canvas>
+    </div>
+</center>
+<script src="version4.js"></script> -->
+</body>
+</html>
